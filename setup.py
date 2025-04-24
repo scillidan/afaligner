@@ -57,7 +57,7 @@ setup(
     package_dir={'': 'src'},
     package_data={'afaligner': ['templates/*']},
     install_requires=[
-        'aeneas>=1.7.3.0',
+        'py3-aeneas',
         'Jinja2>=3.1.2',
     ],
     ext_modules=[CTypesLibrary(
